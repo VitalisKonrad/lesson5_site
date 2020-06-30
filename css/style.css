@@ -1,5 +1,6 @@
 body{
     font-family: Tahoma;
+    box-sizing: border-box;
 }
 button:focus{
     outline: none;
@@ -90,3 +91,26 @@ button:focus{
     font-weight: 400;
     line-height: 22px;
 }
+.buyer{
+    padding-top: 90px;
+    height: 860px;
+}
+.buyer-block{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+.buyer-wrap::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.buyer-block__img{
+    max-width: 261px;
+    max-height: 261px;
+    margin-bottom: 40px;
+}
+/*.buyer-wrap{*/
+/*    height: 860px;*/
+/*}*/
